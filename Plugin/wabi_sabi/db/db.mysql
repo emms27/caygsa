@@ -1,0 +1,55 @@
+# Copyright (C) 2011 Jovany Leandro G.C <info@manadalibre.org>
+#   If you are asking what license this software is released under,
+#   you are asking the wrong question.
+#
+#
+#   This program use code from http://felix.plesoianu.ro/php/wabisabi/ who
+#    owner is  Felix Pleșoianu <felixp7@yahoo.com>
+
+
+DROP TABLE IF EXISTS WabiSabi;
+CREATE TABLE WabiSabi (id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, page_name VARCHAR(100), content TEXT, created DATETIME, modified DATETIME);
+
+INSERT INTO WabiSabi(page_name, content, created, modified) VALUES("WikiSandBox", "WabiSabi supports a limited, but hopefully useful set of markup patterns.
+
+== Block-level markup
+
+=== Headings
+==== Over multiple levels
+
+Normal paragraphs.
+
+* lists
+* and lists
+# and numbered lists
+## but no multiple levels
+
+{{{Preformatted text
+(no wiki markup recognized inside).}}}
+
+{|
+ |+tables
+ |+like in
+ |+MediaWiki
+ |-
+ |1
+ |2
+ |3
+ |}
+----
+Horizontal lines.
+: Block quotes,
+;and finally:definition lists.
+
+== inline markup ==
+
+WikiWords, [http://en.wikipedia.org/wiki/Url labeled external links], bare external links: http://wikipedia.org/ and even pictures:
+\\\\{{http://felix.plesoianu.ro/pub/media/p1000273.jpg}}
+
+Explicit\\\linebreaks, **bold** and //italic//, plus
+ ,,subscript,, and ^^superscript^^.
+
+Last but not least, you can have {{{'(inline code fragments)}}}.
+
+-----
+", NOW(), NOW());

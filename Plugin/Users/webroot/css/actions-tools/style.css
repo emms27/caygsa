@@ -1,0 +1,80 @@
+.actions-tools {height: 17px;}
+.actions-tools li{float: left;}
+.actions-tools li a{
+	display: block;
+	width: 20px;
+	height: 17px;
+	outline: none;
+	background: transparent url(icon_accion.png) no-repeat top left;
+	text-indent: -9000px;
+	position: relative;
+}
+.actions-tools li .delete{background-position: 0px 0px}
+.actions-tools li:hover .delete{background-position:0px bottom;}
+.actions-tools li .cancel{background-position: -20px 0px}
+.actions-tools li:hover .cancel{background-position:-20px bottom;}
+.actions-tools li .pdf{background-position: -40px 0px;}
+.actions-tools li:hover .pdf{background-position:-40px bottom;}
+.actions-tools li .view{background-position: -60px 0px;}
+.actions-tools li:hover .view{background-position:-60px bottom;}
+.actions-tools li .copy{background-position: -80px 0px;}
+.actions-tools li:hover .copy{background-position:-80px bottom;}
+.actions-tools li .edit{background-position: -100px 0px;}
+.actions-tools li:hover .edit{background-position:-100px bottom;}
+.actions-tools li .excel{background-position: -120px 0px;}
+.actions-tools li:hover .excel{background-position:-120px bottom;}
+.actions-tools li .txt{background-position: -140px 0px;}
+.actions-tools li:hover .txt{background-position:-140px bottom;}
+
+/*
+.actions-tools li a span{
+	width: 100px;
+	height: auto;
+	line-height: 20px;
+	padding: 7px;
+	left: 50%;
+	margin-left: -60px;
+	font-family: 'Alegreya SC', Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 13px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	background: rgba(0,0,0,0.3);
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	pointer-events: none;
+	bottom: 100px;
+	opacity: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.actions-tools li a span:before,
+.actions-tools li a span:after{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.actions-tools li a span:after{
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #fff;
+}
+.actions-tools li a:hover span{
+	opacity: 0.9;
+	bottom: 70px;
+}*/

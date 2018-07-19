@@ -1,0 +1,22 @@
+body {
+	top:0;
+	height: 100%;
+	width:100%;
+	margin: 0 auto;
+	padding:0;
+	text-align:left; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.5em;
+}
+
+a:link{ color: #CF7F18; }
+a:visited{ color: #AD660C; }
+a:hover, a:focus{ color: #FF9814;	text-decoration:none; }
+
+ol, ul{	margin: 1em 0 1em 2em; }
+ol ol, ol ul, ul ol, ul ul{ margin-top:0; margin-bottom:0; }
+ol li{	list-style:decimal }
+ol li ol li{ list-style:upper-alpha; }
+ol li ol li ol li{ list-style:upper-roman; }
+ul li{ list-style:disc;}

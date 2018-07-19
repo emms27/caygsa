@@ -1,0 +1,145 @@
+/**
+ *
+ * Generic CSS for CakePHP
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       app.webroot.css
+ * @since         CakePHP(tm)
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+
+/* Tabla */
+table {
+	width: 100%;
+/*
+	border-right:0;
+	border:solid:#666666;
+	clear: both;
+	color: #203597;
+	margin-bottom: 10px;
+	width: 100%;
+	border-style: dotted; 
+*/
+} 
+
+table.accionvista {text-transform: uppercase; 	color: black;}
+table.accionvista tr{}
+table.accionvista th {
+	border: 1px solid #CCB;
+        font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+ 	font-size:11px;
+        text-align: right;
+        width:25%;
+	padding:3px;
+}
+table.accionvista td {
+	border: 1px solid #CCB;
+        width:75%;
+	padding:3px;
+}
+
+table.form {width: 90%;}
+table.form tr{}
+table.form th {
+	border: 1px solid #CCB;
+	background:url(img/bform.jpg) repeat-x; 
+	padding:3px;
+        text-align: left;
+        text-transform: uppercase;
+	font-family: 'Droid+Serif';
+ 	font-size: 15px;
+	font-weight:normal;
+}
+table.form td {
+	padding:2px;
+        text-align: center;
+	font-weight:normal;
+}
+table.form span {
+	padding-left:15px;	
+	font-weight:bold;
+}
+table.form p {
+        text-align: left;
+	padding-left:25px;
+	padding-bottom:7px;
+        text-transform: none;
+}
+/*
+th a.asc:after {content: ' ⇣a';}
+th a.desc:after {content: ' ⇡';}
+*/
+
+table.estado {
+        width:97%;
+	background:#E8E8E8;
+	background-position:right;
+	border:1px solid #CC9933;
+	margin-top:0px;
+	padding:5px 20px;
+	color:#804000;	-moz-border-radius:10px;
+}
+table.estado tr{}
+table.estado td {
+/*	border: 1px solid #CCB;
+	padding:3px;
+        text-align: left;text-transform: uppercase;
+*/
+}
+table.testgrid { 
+	border-collapse: collapse; 
+	/*border: 1px solid #CCB; 	color: #555;*/
+        border:1px solid #666666; 
+        color:#203597;
+}
+
+table.testgrid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgrid>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgrid>tbody tr:hover a {text-decoration: underline;}
+
+table.testgrid th {
+	/*background: #E5E5E5; 
+        color: #548dc4;
+        */
+        background-color: #990033;
+	border: 1px solid #D5D5D5;
+        color: white;
+	font-size: 11px;
+        font:bold;
+	text-transform: uppercase; 
+	text-align: center;
+	white-space: nowrap; 
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	white-space: nowrap; 
+}
+
+table.testgrid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+        text-align: center;
+}
+table.testgrid tr:nth-child(even) {
+        background-color: #EDEFF4; 
+        border: 1px solid #FFFFFF; 
+        border-collapse: collapse; 
+
+}
+

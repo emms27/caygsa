@@ -1,0 +1,79 @@
+body{background: #F4F4F4; font-size:9pt;}
+h2{color:#F09A2E; padding:10px 0; font-family: 'Amaranth', sans-serif; font-weight:normal;}
+h3{margin-left:10px; float:left; color:#F09A2E; font-family: 'Amaranth', sans-serif; font-weight:normal;}
+header{
+       background: #212121; 
+       /*width:1024px;*/
+       height:110px; 
+       color:#FFF;}
+header h1{width:1024px; margin: 0 auto; font-size:45pt; 
+          /*font-family:'Conv_OldLondon',Sans-Serif;*/
+          font-family:'Montaga';  
+          text-align: center;
+          font-weight: normal;}
+header nav{
+	background: none repeat scroll 0 0 #2C2E2E;
+	/*background-image: linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
+	background-image: -o-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
+	background-image: -moz-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
+	background-image: -webkit-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
+	background-image: -ms-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
+	*/
+    border-top: 2px solid #333333;
+    height: 50px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 1;
+	box-shadow: 0 5px 6px #555555;
+	-moz-box-shadow: 0px 5px 6px #555;
+	-webkit-box-shadow: 0px 5px 6px #555;
+	}
+header ul{width:1024px; margin:0 auto;}
+header li{display:block; float:left; padding-right:20px; margin-top:10px;}
+header a{text-decoration:none; color:#FFF; font-family: 'Amaranth', sans-serif;}
+header a:hover{color:#F09A2E;}
+div.wrapper_all{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0px 1px 10px #333333;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    top: 30px;
+    width: 1024px;
+    z-index: 0;
+/* BORDER REDONDO 
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+*/
+}
+
+section.content{
+	width:1024px; 
+	position:relative; 
+	top:0px; 
+	clear:both; 
+	margin:0 auto;
+}
+
+/* Noticia principal */
+section#noticia-principal{ height:50px;  width: 100%; }
+
+/* Footer */
+div.footer{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0px 1px 10px #333333;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    top: 30px;
+    width: 1024px;
+    height:150px;
+    z-index: 0;
+}
+
+
+
+

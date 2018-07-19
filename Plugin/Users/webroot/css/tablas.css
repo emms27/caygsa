@@ -1,0 +1,394 @@
+/**
+ *
+ * Generic CSS for CakePHP
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       app.webroot.css
+ * @since         CakePHP(tm)
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+
+/* Tabla */
+table {
+        font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+ 	font-size:11px;
+	width: 100%;
+/*
+	border-right:0;
+	border:solid:#666666;
+	clear: both;
+	color: #203597;
+	margin-bottom: 10px;
+	width: 100%;
+	border-style: dotted; 
+*/
+} 
+
+table tr td th{
+	/*
+	border-bottom:1px solid #ddd;
+	vertical-align: top;
+        */
+        padding: 1px;
+	text-align: left;
+
+} 
+
+th {
+	border:0;
+	border-bottom:2px solid #036;
+	padding:4px;
+}
+
+
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+        color: white;
+}
+
+th a.asc:after {content: ' ⇣';}
+th a.desc:after {content: ' ⇡';}
+
+table.accionvista {text-transform: uppercase;}
+table.accionvista tr{}
+table.accionvista th {
+	border: 1px solid #CCB;
+        text-align: right;
+        width:25%;
+	padding:3px;
+}
+table.accionvista td {
+	border: 1px solid #CCB;
+        width:75%;
+	padding:3px;
+}
+
+table.banner {}
+table.banner tr{}
+table.banner td {
+	border: 1px solid #CCB;
+	padding:3px;
+        text-align: left;text-transform: uppercase;
+}
+
+table.bannerfoto {border: 1px solid #CCB; width:98%}
+table.bannerfoto tr{}
+table.bannerfoto td {
+	padding:3px;
+        text-align: left;
+}
+
+table.dashboard {}
+table.dashboard tr{}
+table.dashboard th {
+	border: 1px solid #CCB;
+	background:url(img/bdashboard.jpg) repeat-x; 
+	padding:3px;
+        text-align: left;
+        text-transform: uppercase;
+	font-family: 'Droid+Serif';
+ 	font-size: 15px;
+	font-weight:normal;
+}
+table.dashboard td {
+	padding:3px;
+        text-align: center;
+        text-transform: uppercase;
+	font-weight:normal;
+}
+table.dashboard span {
+	padding-left:15px;	
+	font-weight:bold;
+}
+table.dashboard p {
+        text-align: left;
+	padding-left:25px;
+	padding-bottom:7px;
+        text-transform: none;
+}
+
+table.estado {
+        width:97%;
+	background:#E8E8E8;
+	background-position:right;
+	border:1px solid #CC9933;
+	margin-top:0px;
+	padding:5px 20px;
+	color:#804000;	-moz-border-radius:10px;
+}
+table.estado tr{}
+table.estado td {
+/*	border: 1px solid #CCB;
+	padding:3px;
+        text-align: left;text-transform: uppercase;
+*/
+}
+
+table.testgrid { 
+	border-collapse: collapse; 
+	/*border: 1px solid #CCB; 	color: #555;*/
+        border:1px solid #666666; 
+        color:#203597;
+}
+
+table.testgrid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgrid>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgrid>tbody tr:hover a {text-decoration: underline;}
+
+table.testgrid th {
+	/*background: #E5E5E5; 
+        color: #548dc4;
+        */
+        background-color: #990033;
+	border: 1px solid #D5D5D5;
+        color: white;
+	font-size: 11px;
+        font:bold;
+	text-transform: uppercase; 
+	text-align: center;
+	white-space: nowrap; 
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	white-space: nowrap; 
+}
+
+table.testgrid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+        text-align: center;
+}
+table.testgrid tr:nth-child(even) {
+        background-color: #EDEFF4; 
+        border: 1px solid #FFFFFF; 
+        border-collapse: collapse; 
+
+}
+
+
+
+/* AZUL */
+table.saldo { 
+	border: 1px solid #CCB;
+        text-align: center;
+}
+
+table.saldo th {
+	background: #548dc4;
+	border: 1px solid #D5D5D5;
+        color: #fff;
+        font-weight:bold;
+	font-size: 12px;
+        text-align: center;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.saldo td {
+        font-family:Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+        font-weight:bold;
+	padding: 5px;
+	color: 	black;
+        height:50px;
+}
+
+/* Tabla Actividad del Sistema */
+table.testgridactividad { 
+	border-collapse: collapse; 
+        border:0px solid #666666; 
+	font-size: 12px;
+        font-family: 'Judson';
+	color: #666666;
+}
+
+table.testgridactividad tr {
+	border-bottom: 0px solid #DDD;
+}
+
+table.testgridactividad>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgridactividad>tbody tr:hover a {text-decoration: underline;}
+
+table.testgridactividad td {
+	padding: 5px;
+	border: 0px solid #E0E0E0;
+}
+table.testgridactividad tr:nth-child(even) {
+        background-color: #EDEFF4; 
+        border: 0px solid #FFFFFF; 
+        border-collapse: collapse; 
+
+}
+
+/* GRIS */
+table.testgridgris { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	color: #555;
+}
+
+table.testgridgris tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgridgris>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgridgris>tbody tr:hover a {
+	color: white;
+}
+
+table.testgridgris th {
+	background: #E5E5E5;
+	border: 1px solid #D5D5D5;
+        color: #548dc4;
+	text-transform: uppercase; 
+        font:bold;
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.testgridgris td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+        text-align: center;
+}
+table.testgridgris tr:nth-child(even) {
+	background: #CCB;
+}
+
+/*  NARANJA   */
+table.testgridnaranja { 
+ 	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	color: #555;
+}
+
+
+table.testgridnaranja tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgridnaranja>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgridnaranja>tbody tr:hover a {
+	color: white;
+}
+
+table.testgridnaranja th {
+	background: #D3D3D3;
+	border: 1px solid #D5D5D5;
+	color: #FF4500;
+        text-transform: uppercase; 
+	font:bold;
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.testgridnaranja td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
+
+table.testgridverde { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	color: #555;
+}
+
+
+table.testgridverde tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgridverde>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.testgridverde>tbody tr:hover a {
+	color: white;
+}
+
+table.testgridverde th {
+	background: #D3D3D3;
+	border: 1px solid #D5D5D5;
+	color: #6B8E23;
+	text-transform: uppercase; 
+	font:bold;
+	font-size: 11px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.testgridverde td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
+
+.TablaAzul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	text-align:right;
+	width: auto;
+	border-width: 1px; 
+	border-spacing:3px; /* Para establecer la distancia entre los bordes de las celdas */
+	border-style:solid; 
+	border-color:#069; 
+	color: #203597;
+}
+
+
+.TablaGris {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 11px; 
+    	 width: auto;
+	 border-width: 1px; 
+	 border-spacing:7px; /* Para establecer la distancia entre los bordes de las celdas */
+	 border-style:solid; 
+	 border-color:#999; 
+	 color: #203597;
+}
+

@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+aside, details, footer, header, hgroup, nav, section { display: block; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+svg:not(:root) { overflow: hidden; }
+

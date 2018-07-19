@@ -1,0 +1,52 @@
+.square1_Externo {width:100%;}
+.square1_Interno {
+	background:#FFFFFF; 
+	border-left:1px solid #CFCFCF; 
+	border-right:1px solid #CFCFCF; 
+	padding:5px; 
+	text-align: center;
+}
+.square1_1, .square1_2, .square1_3, .square1_4, .square1_1b, .square1_2b, .square1_3b, .square1_4b {
+	display:block; 
+	overflow:hidden; 
+	font-size:1px;
+}
+.square1_1, .square1_2, .square1_3, .square1_1b, .square1_2b, .square1_3b {height:1px;}
+.square1_2  {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_3  {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_4  {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_4b {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_3b {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_2b {background:#FFFFFF; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square1_1  {margin:0 5px; background:#CFCFCF;}
+.square1_2, .square1_2b {margin:0 3px; border-width:0 2px;}
+.square1_3, .square1_3b {margin:0 2px;}
+.square1_4, .square1_4b {height:2px; margin:0 1px;}
+.square1_1b {margin:0 5px; background:#CFCFCF;}
+
+
+.square3_Externo {width:100%;}
+.square3_Interno {
+	background:#F5F5F5;
+	border-left:1px solid #CFCFCF; 
+	border-right:1px solid #CFCFCF; 
+	padding:5px; 
+	text-align: center;
+}
+.square3_1, .square3_2, .square3_3, .square3_4, .square3_1b, .square3_2b, .square3_3b, .square3_4b {
+	display:block; 
+	overflow:hidden; 
+	font-size:1px;
+}
+.square3_1, .square3_2, .square3_3, .square3_1b, .square3_2b, .square3_3b {height:1px;}
+.square3_2  {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_3  {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_4  {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_4b {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_3b {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_2b {background:#F5F5F5; border-left:1px solid #CFCFCF; border-right:1px solid #CFCFCF;}
+.square3_1  {margin:0 5px; background:#CFCFCF;}
+.square3_2, .square3_2b {margin:0 3px; border-width:0 2px;}
+.square3_3, .square3_3b {margin:0 2px;}
+.square3_4, .square3_4b {height:2px; margin:0 1px;}
+.square3_1b {margin:0 5px; background:#CFCFCF;}

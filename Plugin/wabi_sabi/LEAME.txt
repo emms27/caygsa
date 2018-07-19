@@ -1,0 +1,6 @@
+Este programa es una Wiki en CakePHP 1.3.x, utilizando como motoro
+wiki a WabiSabi.
+
+Para instalar:
+ copiar la esta carpeta wabi_sabi en app/plugins/
+ y construir la tabla desde wabi_sabi/db/db.mysql
